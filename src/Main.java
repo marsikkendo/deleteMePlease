@@ -6,6 +6,7 @@ public class Main {
     // added(созданный) - зеленый
     // removed
     // changed - синим
+    // not changed - белый
 
     public static void main(String[] args) {
 
@@ -14,7 +15,6 @@ public class Main {
         int qwe2 = getSum(16, 15);
         System.out.println(color2);
         System.out.println(qwe2);
-        printSum(10, 12);
 
      }
     //   public static возвращаемый тип имя метода (параметры) {}
